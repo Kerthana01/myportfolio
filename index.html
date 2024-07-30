@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Responsive Personal Portfolio</title>
+</head>
+<body>
+    <header class="head">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="Menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <!--Home page-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Kerthana S</h1>
+            <h3>And I'm a <span class="multiple-text"> </span></h3>
+            <p>Skilled Software Developer proficient in
+                creating innovative solutions with Java, React,
+                and Node.js. Adept in developing and
+                optimizing web applications, enhancing user
+                experience, and improving operational
+                efficiency. Skilled in utilizing MySQL,
+                MongoDB, and PostgreSQL for robust
+                database management. Proven track record of
+                delivering secure, scalable systems and driving
+                significant improvements in user engagement
+                and productivity.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/kerthana-s?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:kerthanak528@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/916379622134" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1IpWF435KpS64wGpOqgg3y0SC7XrE0dp-/view?usp=sharing" class="btn" download target="_blank">Get My Resume</a>
+
+        </div>
+        <div class="home-img">
+            <img src="img.jpg" alt="">
+        </div>
+    </section>
+
+    <!--About page-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2> 
+            <h3>Full Stack Developer</h3>
+            <p>Skilled Software Developer proficient in
+                creating innovative solutions with Java, React,
+                and Node.js. Adept in developing and
+                optimizing web applications, enhancing user
+                experience, and improving operational
+                efficiency. Skilled in utilizing MySQL,
+                MongoDB, and PostgreSQL for robust
+                database management. Proven track record of
+                delivering secure, scalable systems and driving
+                significant improvements in user engagement
+                and productivity.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!--Services page-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-paint-brush"></i>
+                <h3>Web Design</h3>
+                <p>Unlock the power of exceptional web design with my professional services. As a seasoned Web Designer, I specialize in creating visually stunning and user-friendly websites that resonate with your audience. Utilizing the latest technologies like HTML5, CSS3, and JavaScript, I craft responsive and interactive designs that ensure a seamless user experience across all devices. My expertise extends to various platforms, including WordPress and Shopify, enabling customized solutions that align with your brand identity and business goals. From concept to launch, I offer a holistic approach to web design, ensuring your website not only looks great but also drives engagement and conversions. Whether you're building a new site or revamping an existing one, my web design services are tailored to enhance your online presence and support your growth objectives.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java Development</h3>
+                <p>Elevate your software solutions with expert Java development services. As an experienced Java Developer, I specialize in building robust and scalable applications tailored to meet your unique business needs. Utilizing frameworks like Spring and Hibernate, I deliver efficient and secure solutions that enhance functionality and user experience. My services cover the full software development lifecycle, from initial consultation and system design to implementation and maintenance. With a deep understanding of modern development practices, including Agile methodologies and DevOps integration, I ensure that your projects are delivered on time and within budget. Whether you need a custom enterprise application, API integration, or performance optimization, my Java development services are designed to provide reliable and future-proof solutions that drive innovation and growth.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fas fa-laptop-code icon"></i>
+                <h3>Full Stack Development</h3>
+                <p>Harness the full potential of your digital projects with expert full stack development services. As a skilled Full Stack Developer, I specialize in creating comprehensive web solutions that span both front-end and back-end development. Leveraging technologies such as Java, Spring Boot, and modern JavaScript frameworks like React or Angular, I deliver cohesive and dynamic applications tailored to your needs. My expertise includes integrating robust databases like MySQL and MongoDB, as well as deploying scalable solutions on cloud platforms like AWS and Google Cloud. Whether you're building a new application, optimizing existing systems, or integrating complex APIs, my full stack development services are designed to provide seamless functionality, exceptional performance, and strategic growth for your business.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION DESIGN -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box" onclick="window.open('https://drive.google.com/drive/folders/1zDzNQ1DziQkn2mxIJ-zHLs4GoNlx0hPt?usp=sharing', '_blank')">
+            <img src="spotify.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Spotify Clone</h4>
+                <p>Created a web-based music streaming application that replicates key features of Spotify. The project includes user interface design, responsive layouts, and JavaScript functionalities such as dynamic content updates and audio playback control. This project demonstrates skills in front-end development, UI/UX design, and handling multimedia content.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://kerthana01.github.io/ping-pong/', '_blank')">
+            <img src="ping.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Ping Pong Game</h4>
+                <p>Developed a Ping Pong game using HTML, CSS, and JavaScript, implementing game mechanics, responsive design, and user controls. Focused on creating an engaging and interactive experience with a visually appealing interface.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://kerthana01.github.io/phone-pay-clone/', '_blank')">
+            <img src="phone.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>PhonePay Clone</h4>
+                <p>Developed a PhonePe clone using HTML and CSS, mimicking the interface and user experience of the popular payment app. Designed responsive layouts and interactive elements to enhance user engagement and usability.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://kerthana01.github.io/E-commerce-website/', '_blank')">
+            <img src="ecommerce.png" alt="">
+            <div class="portfolio-layer">
+                <h4>E-Commerce Website</h4>
+                <p>Developed an e-commerce website using React and Node.js, featuring a user-friendly interface and seamless navigation. Integrated a secure payment gateway using Stripe for processing transactions. Implemented a robust backend with Express.js and MongoDB for efficient data management and user authentication.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div> 
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://github.com/Kerthana01/Chat-bot-GWM', '_blank')">
+            <img src="chat.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>ChatBot</h4>
+                <p>Created an intelligent chatbot using Python and the Rasa framework for real-time customer support. The chatbot leverages natural language processing (NLP) to understand and respond to user queries accurately. Integrated with various messaging platforms like Slack and Facebook Messenger to provide omnichannel support.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div> 
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://drive.google.com/drive/folders/1nIsXv40tNzvZr9NyB3XW3Fj53okYxwij?usp=drive_link', '_blank')">
+            <img src="cal.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Android Calculator</h4>
+                <p>Developed an Android calculator application using Java and XML, featuring basic arithmetic operations, a user-friendly interface, and responsive design for various screen sizes. The project involved implementing efficient algorithms for accurate calculations and optimizing the app for performance</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!--CONTACT ME-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xzzprdbn" method="POST" target="_blank">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!--CONTACT ME-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @heresthecode | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon Top">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
